@@ -1,0 +1,5 @@
+<svg class="svg_box" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" >
+<!-- xmlns:xlink="user-images.css" -->
+    <circle cx="40" cy="20" r="7" stroke="black" fill="white"/>
+    <path d="M20 55 A16 20 1 0 1 60 55" stroke="black" fill="white" />
+</svg>

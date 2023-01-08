@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './all componets/Navbar/Navbar';
+import './all componets/program js/ProgramJs';
+import IOD from './all componets/ImageOfDay/IOD';
+import MoreImage_T from './all componets/MoreImages/MoreImage_T';
+import './all componets/GetSearchResult/GetSearchResult';
+import Darkmode from './all componets/Darkmode/Darkmode';
+import Footer from './all componets/footer/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Darkmode/>
+    <Navbar />
+    <IOD />
+    <MoreImage_T/>
+    <Footer/>
+    </>
   );
 }
-
 export default App;
+// background-color: #0f022b;
+// color: #20efedcf;

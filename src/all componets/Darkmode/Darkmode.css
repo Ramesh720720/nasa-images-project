@@ -1,0 +1,29 @@
+#DarkModeDiv {
+    margin-top: 80vh;
+    margin-left: 80vw;
+    background-color: aliceblue;
+    position: fixed;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 80px;
+}
+.darkmodeImg {
+    width: 40px;
+    border-radius: 30%;
+}
+.DarkModeBtn {
+    border-radius: 30%;
+    border: none;
+    background-color: gray;
+}
+
+@media screen and (min-width: 400px) {
+    #DarkModeDiv {
+        margin-left: 85vw;
+    }
+}
+@media screen and (min-width: 600px) {
+    #DarkModeDiv {
+        margin-left: 90vw;
+    }
+}

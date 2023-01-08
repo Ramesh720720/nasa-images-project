@@ -1,0 +1,130 @@
+.navbar-btn{
+    width: 40px;
+    height: 40px;
+    margin: 0%;
+    padding: 0%;
+}
+#navbar_btn{
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    border: 0ch;
+}
+#navbar-all-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+#navbar{
+    color: white;
+    background-color: #06276d;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    width: 100%;
+}
+.web-name-heading{
+    margin: 0%;
+}
+#main_other_page_link{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.menu-link{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 8px;
+    font: 200;
+    font-size: larger;
+}
+#navbar-search-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+}
+#web-name-links ,#search-form-navbar-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.navbar-search-input-area{
+    padding: 1px 2px;
+    font-size: large;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: aliceblue;
+}
+#navbar-search-form input[type="date"],#navbar-search-form input[type="text"]{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 2px;
+}
+#navbar-search-form input[type="submit"]{
+    font-family: 'Times New Roman', Times, serif;
+    width: 120px;
+    padding: 4px 0px;
+    font-size: larger;
+}
+#navbar-btn{
+    display: none;
+}
+.navbar-btn{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+@media screen and (max-width:800px) {
+    #navbar-all-container{
+        display: grid;
+        /* grid-template-columns: 80vw 20vw; */
+        grid-auto-flow: column;
+        grid-template-rows: auto auto;
+        align-items: flex-start;
+    }
+    #navbar-btn{
+        display: unset;
+    }
+    #web-name-links{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        align-items: flex-start;
+    }
+    #other_pages{
+        display: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #search_box{
+        display: none;
+        width: 100%;
+        align-items: flex-start;
+    }
+    #navbar-search-form{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* gap : 25px; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin: 30px 0px;
+    }
+   #navbar-btn{
+    display: flex;
+    align-items: flex-start;
+    width: 5vw;
+
+   }
+   #main_other_page_link{
+    width: 100%;
+   }
+}
+@media screen and (max-width:500px) {
+    #navbar-all-container{
+        grid-template-columns: 80vw 20vw;
+    }
+}

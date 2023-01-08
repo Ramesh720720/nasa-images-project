@@ -1,0 +1,75 @@
+.MoreAboutImageContent{
+    width: fit-content;
+    height: fit-content;
+    color: blue;
+    text-decoration: underline;
+    border: 0px;
+    background-color: transparent;
+}
+.shortContent{
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+}
+.LoadMoreTempalte{
+    padding: 5px;
+    font-size: larger;
+    background-color: #1466aa;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+.wfc{
+    width: fit-content;
+    height: fit-content;
+}
+#tempAll{
+    margin: 5px;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+}
+.heading-m-image{
+    margin: 0%;
+}
+.m-image-date-p{
+    margin: 0%;
+    padding: 0%;
+}
+.image-container-m{
+    border: 1px solid gray;
+    padding: 2px;
+    margin-bottom: 4px;
+}
+.images-default{
+    width: 100%;
+}
+.image-container-m{
+    padding: 5px;
+}
+@media screen and (max-width:2200px) {
+    .image-container-m{
+        width: 18.5%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .image-container-m{
+        width: 30%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .image-container-m{
+        width: 45%;
+    }
+}
+@media screen and (max-width:500px) {
+    .image-container-m{
+        width: 100%;
+    }
+}
+.headingMore{
+    margin: 2px 10px;
+}
