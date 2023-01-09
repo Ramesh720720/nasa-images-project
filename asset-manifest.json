@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nasa-images-project/static/css/main.08a43837.css",
-    "main.js": "/nasa-images-project/static/js/main.c92eb8d0.js",
+    "main.css": "/nasa-images-project/static/css/main.4afb1e5b.css",
+    "main.js": "/nasa-images-project/static/js/main.4d6a9213.js",
     "static/js/787.44ba14dd.chunk.js": "/nasa-images-project/static/js/787.44ba14dd.chunk.js",
     "index.html": "/nasa-images-project/index.html",
     "static/media/moon.svg": "/nasa-images-project/static/media/moon.95e678787e37e4ddaffa5205c4e75150.svg",
     "static/media/user-images.svg": "/nasa-images-project/static/media/user-images.6271ed2b90ae6301a7290efe29b51151.svg",
-    "main.08a43837.css.map": "/nasa-images-project/static/css/main.08a43837.css.map",
-    "main.c92eb8d0.js.map": "/nasa-images-project/static/js/main.c92eb8d0.js.map",
+    "main.4afb1e5b.css.map": "/nasa-images-project/static/css/main.4afb1e5b.css.map",
+    "main.4d6a9213.js.map": "/nasa-images-project/static/js/main.4d6a9213.js.map",
     "787.44ba14dd.chunk.js.map": "/nasa-images-project/static/js/787.44ba14dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a43837.css",
-    "static/js/main.c92eb8d0.js"
+    "static/css/main.4afb1e5b.css",
+    "static/js/main.4d6a9213.js"
   ]
 }
